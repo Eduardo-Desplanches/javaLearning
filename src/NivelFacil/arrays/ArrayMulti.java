@@ -1,4 +1,4 @@
-package arrays;
+package NivelFacil.arrays;
 
 public class ArrayMulti {
     public static void main(String[] args) {
