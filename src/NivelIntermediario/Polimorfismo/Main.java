@@ -12,8 +12,10 @@ public class Main {
         sasuke.habilidadeEspecial();
 
 
-        Hogake Hashirama = new Hogake("Hashirama Senju");
-        System.out.println(Hashirama.nome);
+        Hogake Hashirama = new Hogake();
+
+        Hashirama.nome = "Hashirama Senju";
+        Hashirama.idade = 45;
 
 
         Hogake Tobirama = new Hogake("Tobirama Senju");
