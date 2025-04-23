@@ -1,7 +1,7 @@
 package NivelIntermediario.Polimorfismo;
 
 public class Uzumaki extends Ninja {
-
+//sub classe -> uma classe criada por uma classe mãe, super classe
 
     @Override
     public void habilidadeEspecial() {

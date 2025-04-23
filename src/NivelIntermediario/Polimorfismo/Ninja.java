@@ -1,9 +1,23 @@
 package NivelIntermediario.Polimorfismo;
 
 public abstract class Ninja implements EstrategiaDeBatalha{
+//    super classe -> pois é classe que dá origem a outra classe, as sub classes.
+//    Super classes -> podem ter diversas sub classes.
+//    This é a regra de super classe.
     String nome;
     int idade;
     String aldeia;
+
+    public Ninja() {
+    }
+
+    public Ninja(String nome, int idade, String aldeia) {
+        this.nome = nome;
+        this.idade = idade;
+        this.aldeia = aldeia;
+    }
+
+
 
     // Métodos gerais.
     public void  habilidadeEspecial(){

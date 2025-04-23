@@ -14,6 +14,9 @@ public class Main {
         sasuke.nome = "Sasuke Uchiha";
         sasuke.habilidadeEspecial();
 
+        Uchiha Itachi = new Uchiha("Itachi", 27, "Aldeia da folha" );
+        Itachi.estrategiaDeBatalhaNinja();
+
 
         Hogake Hashirama = new Hogake("Hashirama Senju", 45, true, "Aldeia da folha", 1000, 1000000, 1.80 );
         System.out.println(Hashirama.saldobancario);
