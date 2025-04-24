@@ -22,5 +22,13 @@ public class Main {
         Madara.shariganAtivado();
         Madara.ataqueEspecial();
         System.out.println("Nivel Ninja de " + Madara.nome + ": " + Madara.rank);
+
+
+        Madara.inteligenciaDeCombate(200);
+        Madara.inteligenciaDeCombate();
+        Madara.metodoProvisorio();
+//        Uzumaki Naruto = new Uzumaki("Naruto Uzumaki", "Aldeia da Folha",18, 20, NivelNinja.CHUUNIN);
+//
+//        System.out.println(Naruto.rank);
     }
 }
