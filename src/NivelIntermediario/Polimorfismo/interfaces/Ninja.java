@@ -1,12 +1,15 @@
 package NivelIntermediario.Polimorfismo.interfaces;
 
+//FINAL serve para não deixar um método ou variavél ser sobrescrito.
 public abstract class Ninja implements EstrategiaDeBatalha {
     //TODO: Incluir 2 novos atributos:numeroDeMissoesConcluidas, Rank
+    //Toda variável por natureza é public
     String nome;
     String aldeia;
     int idade;
     int numeroDeMissoesConcluidas;
     NivelNinja rank;
+    double altura;
 
     public Ninja() {
     }
@@ -16,6 +19,13 @@ public abstract class Ninja implements EstrategiaDeBatalha {
         this.aldeia = aldeia;
         this.idade = idade;
     }
+
+    // final -> deixa uma variável ou método constante, ou seja, não é alterável e precisa passa valor na hora de declarar o atributo.
+    // pois ele sempre será mesmo valor.
+    final public void jogarKunai(){
+        System.out.println("Jogar Kunai.");
+    }
+
 
     public Ninja(String nome, String aldeia, int idade, int numeroDeMissoesConcluidas, NivelNinja rank) {
         this(nome, aldeia, idade);

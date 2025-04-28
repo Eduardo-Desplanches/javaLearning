@@ -27,8 +27,16 @@ public class Main {
         Madara.inteligenciaDeCombate(200);
         Madara.inteligenciaDeCombate();
         Madara.metodoProvisorio();
-//        Uzumaki Naruto = new Uzumaki("Naruto Uzumaki", "Aldeia da Folha",18, 20, NivelNinja.CHUUNIN);
-//
-//        System.out.println(Naruto.rank);
+
+
+
+        Uzumaki Naruto = new Uzumaki("Naruto Uzumaki", "Aldeia da Folha",18, 20, NivelNinja.CHUUNIN);
+        System.out.println("-------------------------------------------------------");
+        Naruto.jogarKunai();
+
+        Ambu ninjaAmbu = new Ambu();
+        ninjaAmbu.nome = "Ninja Aleatório da Ambu";
+        System.out.println("----------------------------------");
+        ninjaAmbu.ambu();
     }
 }
