@@ -55,7 +55,6 @@ public abstract class Ninja implements EstrategiaDeBatalha {
         }
     }
 
-    public void metodoProvisorio(){
-        System.out.println("Teste");
-    }
+    public abstract void ataqueEspecial();
+
 }

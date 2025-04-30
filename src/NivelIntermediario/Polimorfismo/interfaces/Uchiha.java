@@ -13,13 +13,18 @@ public class Uchiha extends Ninja implements ShariganInterface{
         super(nome, aldeia, idade, numeroDeMissoesConcluidas, rank);
     }
 
+    /*
+    *Method:
+    *   Implementa da interface SHARIGAN
+    * */
     @Override
     public void shariganAtivado(){
         System.out.println(nome + ": Ativou o Sharigan.");
     }
 
+    @Override
     public void ataqueEspecial(){
-        System.out.println("Eu sou " + nome + " e esse é meu ataque especial. Eu já completei "  + numeroDeMissoesConcluidas + " e tenho o nível: " + rank);
+        System.out.println("Eu sou " + nome + " e esse é meu ataque especial. Eu já completei "  + numeroDeMissoesConcluidas + " missões e tenho o nível: " + rank);
     }
 
     @Override
@@ -38,8 +43,4 @@ public class Uchiha extends Ninja implements ShariganInterface{
         }
     }
 
-    @Override // Convenção/boa prática e para compilação -> previni erros de anotações
-    public void metodoProvisorio() {
-        System.out.println("Teste, na classe Uchiha");
-    }
 }

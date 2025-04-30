@@ -8,4 +8,9 @@ final class Ambu extends Ninja{
     public void ambu(){
         System.out.println("Eu sou um anbu");
     }
+
+    @Override
+    public void ataqueEspecial() {
+        System.out.println("Eu sou " + nome + " e esse é meu ataque especial. Eu já completei "  + numeroDeMissoesConcluidas + " missões e tenho o nível: " + rank);
+    }
 }
