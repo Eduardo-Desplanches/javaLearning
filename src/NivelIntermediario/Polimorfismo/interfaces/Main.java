@@ -31,7 +31,6 @@ public class Main {
 
         Uzumaki Naruto = new Uzumaki("Naruto Uzumaki", "Aldeia da Folha",18, 20, NivelNinja.CHUUNIN, Biju.KURAMA);
         Naruto.jogarKunai();
-        System.out.println();
         System.out.println(Naruto.toString());
     }
 }
